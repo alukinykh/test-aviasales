@@ -1,0 +1,53 @@
+.currency-container {
+    padding: 15px;
+}
+
+.button {
+    font-size: 12px;
+    height: 40px;
+    width: 60px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    background: #FFFFFF;
+    border: 1px solid #D2D5D6;
+    color: #2196F3;
+}
+.button:first-child {
+    border-radius: 5px 0px 0 5px;
+}
+
+.button:last-child {
+    border-radius: 0 5px 5px 0;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #f2fcff;
+    border-color: #64b5f5;
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button.active {
+    background-color: #2196f3;
+    border-color: #64b5f5;
+    color: #fff;
+}
+
+.currency-container .title {
+    margin-left: 0;
+    margin-bottom: 10px;
+    color: #4a4a4a;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: .5px;
+    text-align: left;
+}
